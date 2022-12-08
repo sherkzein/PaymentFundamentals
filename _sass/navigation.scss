@@ -1,0 +1,36 @@
+.site-menu {
+    background-color: #171717;
+    padding: 1rem;
+}
+
+.site-menu-content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+}
+
+.site-menu_logo-btn {
+    display: flex;
+    justify-content: space-between;
+
+    @media (min-width: 680px) {
+        display: inline-block;
+    }
+}
+
+.site-menu_mobile-btn {
+    @media (min-width: 680px) {
+        display: none;
+    }
+}
+
+.site-menu_nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-menu_nav a {
+    text-decoration: none;
+    color: white;
+}

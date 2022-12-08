@@ -1,17 +1,2 @@
-.current {
-  color: green;
-}
-h1{
-  color: red;
-}
-html {
-  height: 100%;
-  background-color: cyan;
-}
-
-body {
-  height: 100%;
-  background-image: url('http://i.imgur.com/9HMnxKs.png');
-  background-repeat: repeat-y;
-  background-size: 100% auto;
-}
+@import "reset";
+@import "navigation";
