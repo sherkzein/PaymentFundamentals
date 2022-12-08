@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		".current {\r\n  color: green;\r\n}"
+		".current {\r\n  color: green;\r\n}\r\nh1{\r\n  color: red;\r\n}\r\nhtml {\r\n  height: 100%;\r\n  background-color: cyan;\r\n}\r\n\r\nbody {\r\n  height: 100%;\r\n  background-image: url('http://i.imgur.com/9HMnxKs.png');\r\n  background-repeat: repeat-y;\r\n  background-size: 100% auto;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb;;AACD,AAAA,EAAE,CAAA,EACA,KAAK,EAAE,GAAG,GACX;;AACD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,IAAI,EACZ,gBAAgB,EAAE,IAAI,GACvB;;AAED,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,IAAI,EACZ,gBAAgB,EAAE,qCAAqC,EACvD,iBAAiB,EAAE,QAAQ,EAC3B,eAAe,EAAE,SAAS,GAC3B"
 }
