@@ -1,0 +1,55 @@
+$desktop: 680px;
+$xldesktop: 1200px;
+
+.fold {
+    background-color: #171717;
+    padding: 1rem;
+}
+
+.fold-content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+}
+
+.fold-latest {
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    h3 {
+        color: #d1d5db;
+    }
+
+    p {
+        color: #848588;
+    }
+
+}
+
+.fold-recent-item {
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    h4 {
+        color: #d1d5db;
+    }
+
+    p {
+        color: #848588;
+    }
+
+    @media (min-width: $desktop) {
+        display: flex;
+    }
+
+}
+
+.fold-articles {
+    @media (min-width: $xldesktop) {
+        display: flex;
+    }
+}

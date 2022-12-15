@@ -1,3 +1,5 @@
+html { font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document ========================================================================== */
 /** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
@@ -111,14 +113,58 @@ template { display: none; }
 
 .site-menu-content { margin-right: auto; margin-left: auto; max-width: 1400px; }
 
-.site-menu_logo-btn { display: flex; justify-content: space-between; }
+@media (min-width: 680px) { .site-menu-content { display: flex; align-items: center; } }
 
-@media (min-width: 680px) { .site-menu_logo-btn { display: inline-block; } }
+.site-menu_top { display: flex; justify-content: space-between; }
+
+@media (min-width: 680px) { .site-menu_top { display: inline; } }
+
+.site-menu_mobile-btn { background-color: transparent; border-color: transparent; padding: 0; border: 0; }
 
 @media (min-width: 680px) { .site-menu_mobile-btn { display: none; } }
 
+.site-menu_nav { display: none; }
+
+@media (min-width: 680px) { .site-menu_nav { display: block; } }
+
+.site-menu_nav-hidden { display: block; }
+
 .site-menu_nav ul { list-style: none; margin: 0; padding: 0; }
 
-.site-menu_nav a { text-decoration: none; color: white; }
+@media (min-width: 680px) { .site-menu_nav ul { display: flex; } }
+
+.site-menu_nav a { display: block; text-decoration: none; color: #d1d5db; }
+
+@media (min-width: 680px) { .site-menu_nav a { margin-right: 1rem; } }
+
+.site-menu_socials { display: none; }
+
+.site-menu_socials a { padding-left: 4px; }
+
+@media (min-width: 680px) { .site-menu_socials { display: flex; } }
+
+.testflex { display: block; }
+
+@media (min-width: 680px) { .testflex { display: flex; justify-content: space-between; flex-grow: 1; } }
+
+.fold { background-color: #171717; padding: 1rem; }
+
+.fold-content { margin-right: auto; margin-left: auto; max-width: 1400px; }
+
+.fold-latest img { display: block; width: 100%; }
+
+.fold-latest h3 { color: #d1d5db; }
+
+.fold-latest p { color: #848588; }
+
+.fold-recent-item img { display: block; width: 100%; }
+
+.fold-recent-item h4 { color: #d1d5db; }
+
+.fold-recent-item p { color: #848588; }
+
+@media (min-width: 680px) { .fold-recent-item { display: flex; } }
+
+@media (min-width: 1200px) { .fold-articles { display: flex; } }
 
 /*# sourceMappingURL=styles.css.map */

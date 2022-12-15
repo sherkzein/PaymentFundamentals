@@ -1,3 +1,5 @@
+$desktop: 680px;
+
 .site-menu {
     background-color: #171717;
     padding: 1rem;
@@ -7,30 +9,87 @@
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
+
+    @media (min-width: $desktop) {
+        display: flex;
+        align-items: center;
+    }
+
+
 }
 
-.site-menu_logo-btn {
+.site-menu_top {
     display: flex;
     justify-content: space-between;
 
-    @media (min-width: 680px) {
-        display: inline-block;
+    @media (min-width: $desktop) {
+        display: inline;
     }
 }
 
 .site-menu_mobile-btn {
-    @media (min-width: 680px) {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+    border: 0;
+
+    @media (min-width: $desktop) {
         display: none;
     }
+}
+
+.site-menu_nav {
+    display: none;
+
+    @media (min-width: $desktop) {
+        display: block;
+    }
+}
+
+.site-menu_nav-hidden {
+    display: block;
 }
 
 .site-menu_nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    @media (min-width: $desktop) {
+        display: flex;
+    }
+
 }
 
 .site-menu_nav a {
+    display: block;
     text-decoration: none;
-    color: white;
+    color: #d1d5db;
+
+    @media (min-width: $desktop) {
+        margin-right: 1rem;
+    }
+}
+
+.site-menu_socials {
+    display: none;
+
+    a {
+        padding-left: 4px;
+    }
+
+    @media (min-width: $desktop) {
+        display: flex;
+    }
+}
+
+.testflex {
+    display: block;
+
+    @media (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
 }
