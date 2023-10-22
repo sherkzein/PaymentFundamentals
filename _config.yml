@@ -1,3 +1,7 @@
+baseurl: "" # for GitHub Pages
+url: "https://lensnomad.com" # for custom domain
+
+
 collections:
   authors:
     output: true
