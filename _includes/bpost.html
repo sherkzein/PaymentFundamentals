@@ -1,0 +1,51 @@
+<div class="bpost-main">
+    <div class="bpost-head">
+        <h1>Blog Title</h1>
+        <p>Exploring the Challenges of Configurable Properties in Payment Integration</p>
+    </div>
+    <div class="bpost-audio">
+        <audio id="audio" controls>
+            <source src="/assets/sounds/testaudio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="bpost">
+        <div class="bpost-content">
+            <div class="bpost-title">
+                <div class="bpost-img">
+                    <img src="/assets/images/financeimage.jpg" alt="FinanceImage" />
+                </div>
+                <h1>The Problem with Specifying Configurable Properties in Code</h1>
+            </div>
+            <div class="bpost-article">
+                <p>
+                    Writing code for a payments interface typically requires you to specify three types of properties:
+                    the capabilities of your payments integration (e.g., whether your application can support
+                    redirects),
+                    the variable properties of a given payment (e.g., amount or currency), and numerous configurable
+                    properties (e.g., do not show Affirm for transactions less than $50). These configurable properties,
+                    which are typically hard-coded in a parameter like payment_method_types, can cause landmines that
+                    result in payment failures and errors that are hard to debug.
+
+                    This is because payment methods have nuanced limitations that impact whether they can be used for a
+                    given transaction—whether it’s transaction minimums and maximums, currency limitations, merchant
+                    category restrictions, or differences in recurring payment support. Implementing a new payment
+                    method
+                    means you need to 1) know all the specific limitations for that payment method and 2) encode complex
+                    logic to hide or display that payment method based on those limitations for each transaction. Doing
+                    either of these wrong means risking payment failures and disputes, leading to lots of time and
+                    effort to ship new changes.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bpost-footer">
+        <h2>Related Articles</h2>
+        <ul>
+            <li><a href="#">Understanding Payment Integration Challenges</a></li>
+            <li><a href="#">Best Practices for Handling Configurable Properties</a></li>
+            <p>&copy; 2023 PaymentFundamentals. All rights reserved.</p>
+        </ul>
+    </div>
+
+
+</div>

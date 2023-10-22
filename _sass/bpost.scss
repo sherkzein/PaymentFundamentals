@@ -1,0 +1,81 @@
+$desktop: 680px;
+$xldesktop: 1200px;
+$ldesktop: 1000px;
+
+.bpost-main {
+    background-color: #171717;
+    padding: 1rem;
+}
+
+
+.bpost-head {
+    h1 {
+        color: #d1d5db;
+    }
+
+    p {
+        color: #d1d5db;
+    }
+
+}
+
+.bpost-footer {
+    h2 {
+        color: #d1d5db;
+    }
+
+    li {
+        color: #d1d5db;
+    }
+
+    p {
+        color: #d1d5db;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+.bpost-audio {
+    @media (min-width: $xldesktop) {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        left: 88%;
+        top: 100px;
+
+        #audio {
+            width: 200px;
+        }
+    }
+
+}
+
+.bpost-content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+
+}
+
+.bpost-title {
+    h1 {
+        color: #d1d5db;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+.bpost-img {
+    img {
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.bpost-article {
+    p {
+        color: #d1d5db;
+        font-size: 25px;
+    }
+}
