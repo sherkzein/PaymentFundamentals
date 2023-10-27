@@ -4,17 +4,22 @@ $ldesktop: 1000px;
 
 .bpost-main {
     background-color: #171717;
-    padding: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
 .bpost-head {
     h1 {
         color: #d1d5db;
+        font-size: 1.5rem;
     }
 
     p {
         color: #d1d5db;
+        font-size: 1rem;
     }
 
 }
@@ -30,24 +35,9 @@ $ldesktop: 1000px;
 
     p {
         color: #d1d5db;
-        font-size: 15px;
+        font-size: 1rem;
         text-align: center;
     }
-}
-
-.bpost-audio {
-    @media (min-width: $xldesktop) {
-        position: fixed;
-        width: 100px;
-        height: 100px;
-        left: 88%;
-        top: 100px;
-
-        #audio {
-            width: 200px;
-        }
-    }
-
 }
 
 .bpost-content {
@@ -60,22 +50,23 @@ $ldesktop: 1000px;
 .bpost-title {
     h1 {
         color: #d1d5db;
-        font-size: 50px;
+        font-size: 1.5rem;
         text-align: center;
     }
 }
 
 .bpost-img {
-    img {
-        display: block;
-        width: 100%;
-        height: 400px;
-    }
+    position: relative;
+    background-image: url(/assets/images/financeimage.jpg);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 56.25%;
+    background-size: cover;
 }
 
 .bpost-article {
     p {
         color: #d1d5db;
-        font-size: 25px;
+        font-size: 1rem;
     }
 }

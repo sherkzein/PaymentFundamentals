@@ -1,0 +1,27 @@
+.bpost-audio {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    bottom: 1rem;
+
+    #audio {
+        background-color: black;
+    }
+
+    @media (min-width: $xldesktop) {
+        display: inline-table;
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        right: 2rem;
+        top: 100px;
+
+        #audio {
+            width: 200px;
+        }
+    }
+
+}

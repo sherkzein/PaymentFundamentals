@@ -1,5 +1,5 @@
 baseurl: "/PaymentFundamentals" # for GitHub Pages
-
+url: "https://sherkzein.github.io"
 
 collections:
   authors:
