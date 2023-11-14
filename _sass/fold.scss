@@ -11,11 +11,38 @@ $ldesktop: 1000px;
     &_title {
         color: #32363b;
         font-size: 1.5rem;
-        padding: 1rem 0 2rem;
+        padding: 2rem 0 1rem;
+        margin: 0;
+        text-align: start;
 
         @media (min-width: $desktop) {
-            text-align: center;
             font-size: 3rem;
+        }
+    }
+
+    &_undertitle {
+        color: #32363b;
+        font-size: 1.2rem;
+        padding: 0 0 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+}
+
+.foldheader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem 0 2rem;
+
+    @media (max-width: $xldesktop) {
+        grid-template-columns: 1fr;
+    }
+
+    &_illustration {
+        @media (max-width: $xldesktop) {
+            display: none;
         }
     }
 
@@ -29,24 +56,29 @@ $ldesktop: 1000px;
     &_card {
         background-color: whitesmoke;
         background-repeat: no-repeat;
-        background-size: auto 3.5rem;
-        background-position-x: right .5rem;
-        background-position-y: center;
-        background-blend-mode: soft-light;
+        background-size: cover;
+        //background-size: auto 3.5rem;
+        //background-position-x: right .5rem;
+        //background-position-y: center;
+        //background-blend-mode: soft-light;
         border-radius: .3rem;
         padding: 0 1rem;
         height: 5rem;
 
         h1 {
             color: #32363b;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
+
+            @media (min-width: $xldesktop) {
+                font-size: 1.4rem;
+            }
         }
 
         @media (min-width: $xldesktop) {
             height: 20rem;
-            background-position-y: bottom .5rem;
-            background-size: auto 7rem;
+            //background-position-y: bottom .5rem;
+            background-size: cover;
 
             &:hover {
                 transform: scale(1.2);
@@ -66,39 +98,72 @@ $ldesktop: 1000px;
 }
 
 
-.blue {
-    background-color: #B6CAE0;
-    background-image: url(/assets/images/cardpayments.svg);
+.color1 {
+    background-color: #E4E4E4;
+    background-image: url(/assets/images/ripple.svg);
+
+    h1 {
+        @media (min-width: $xldesktop) {
+            border-left: .1rem;
+            border-left-style: solid;
+            border-color: #919191;
+            margin: 0;
+            height: 18.5rem;
+            padding-left: 1.3rem;
+            padding-top: 1.5rem;
+        }
+    }
 }
 
-.red {
-    background-color: #E17967;
-    background-image: url(/assets/images/wallet.svg);
+.color2 {
+    background-color: #E8EEE3;
+    background-image: url(/assets/images/rain.svg);
 
+    h1 {
+        @media (min-width: $xldesktop) {
+            border-left: .1rem;
+            border-left-style: solid;
+            border-color: #919191;
+            margin: 0;
+            height: 12rem;
+            padding-left: 1.3rem;
+            padding-top: 8rem;
+        }
+    }
 }
 
-.yellow {
-    background-color: #F3EC9E;
-    background-image: url(/assets/images/terminal.svg);
+.color3 {
+    background-color: #D0E6E7;
+    background-image: url(/assets/images/wave.svg);
+
+    h1 {
+        @media (min-width: $xldesktop) {
+            border-left: .1rem;
+            border-left-style: solid;
+            border-color: #919191;
+            margin: 0;
+            height: 18.5rem;
+            text-align: end;
+            padding-right: 1.3rem;
+            padding-top: 1.5rem;
+        }
+    }
 }
 
-.grey {
-    background-color: #9799A6;
-    background-image: url(/assets/images/bank.svg);
+.color4 {
+    background-color: #E6DEF0;
+    background-image: url(/assets/images/geometry.svg);
+
+    h1 {
+        @media (min-width: $xldesktop) {
+            border-left: .1rem;
+            border-left-style: solid;
+            border-color: #919191;
+            margin: 0;
+            height: 12rem;
+            text-align: end;
+            padding-right: 1.3rem;
+            padding-top: 8rem;
+        }
+    }
 }
-
-// .blue:hover {
-//     transform: scale(1.2);
-// }
-
-// .red:hover {
-//     transform: scale(1.2);
-// }
-
-// .yellow:hover {
-//     transform: scale(1.2);
-// }
-
-// .grey:hover {
-//     transform: scale(1.2);
-// }

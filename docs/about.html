@@ -8,10 +8,12 @@
 
   <title>About</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelementplayer.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelement-and-player.min.js"></script>
 </head>
 
 <body>
@@ -56,16 +58,12 @@
           </svg>
         </a>
       </button>
-
     </div>
     <div class="testflex">
       <nav id="myLinks" class="site-menu_nav">
         <ul>
-          <li><a href="#">Learn</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Bookmarks</a></li>
-          <li><a href="#">UI Kit</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Glossary</a></li>
         </ul>
       </nav>
     </div>
@@ -84,28 +82,75 @@
   }
 </script>
   <div class="fold">
-    <h1 class="fold_title">
-        Figure out the <br />Payment Fundamentals
-    </h1>
-    <div class="featured-articles">
-        <div class="featured-articles_card blue">
-            <h1>Card<br />Payments</h1>
+    <div class="foldheader">
+        <div>
+            <h1 class="fold_title">
+                Learn how online <br /> payments work.
+            </h1>
+            <p class="fold_undertitle">
+                How do card payments work? What about direct debits? What are all the actors involved and what are the
+                stages of
+                a transaction?
+            </p>
         </div>
-        <div class="featured-articles_card red">
-            <h1>Digital<br />Wallets</h1>
-        </div>
-        <div class="featured-articles_card yellow">
-            <h1>Physical<br />Terminals</h1>
-        </div>
-        <div class="featured-articles_card grey">
-            <h1>Bank<br />Accounts</h1>
+        <div class="foldheader_illustration">
+            <img src="/assets/images/foldimage.svg">
         </div>
     </div>
-    <div class="posts">
+    <div class="featured-articles">
+        
+        
+        <div class="featured-articles_card color1" onclick="location.href='/2018/08/20/bananas-copy.html';"
+            style="cursor:pointer;">
+            <!-- <h1>Card<br />Payments</h1> -->
+            <h1>HOW ONLINE <br /> CARD PAYMENTS <br /> WORK</h1>
+        </div>
+        
+        <div class="featured-articles_card color2" onclick="location.href='/2018/08/20/bananas.html';"
+            style="cursor:pointer;">
+            <!-- <h1>Card<br />Payments</h1> -->
+            <h1>WHAT ARE <br /> DIGITAL WALLETS <br /> & HOW THEY WORK</h1>
+        </div>
+        
+        <div class="featured-articles_card color3" onclick="location.href='/2018/08/21/apples.html';"
+            style="cursor:pointer;">
+            <!-- <h1>Card<br />Payments</h1> -->
+            <h1>CHARGEBACKS</h1>
+        </div>
+        
+        <div class="featured-articles_card color4" onclick="location.href='/2018/08/22/kiwifruit.html';"
+            style="cursor:pointer;">
+            <!-- <h1>Card<br />Payments</h1> -->
+            <h1>HOW INTERNET <br /> BANKING WORKS</h1>
+        </div>
+        
+        <!-- <div class="featured-articles_card red">
+             <h1>Digital<br />Wallets</h1> 
+        </div>
+        <div class="featured-articles_card yellow">
+             <h1>Physical<br />Terminals</h1> 
+        </div>
+        <div class="featured-articles_card grey">
+            <h1>Bank<br />Accounts</h1> 
+        </div> -->
+    </div>
+    <!-- <div class="posts">
         <ul>
             
             
+            <li>
+                
+                <a style="background-color:blue" href="/2018/08/22/kiwifruit.html">ted</a>
+                
+            </li>
             
+            
+            
+            <li>
+                
+                <a style="background-color:blue" href="/2018/08/21/apples.html">jill</a>
+                
+            </li>
             
             
             
@@ -116,8 +161,16 @@
             </li>
             
             
+            
+            <li>
+                
+                <a style="background-color:red" href="/2018/08/20/bananas-copy.html">jill</a>
+                
+            </li>
+            
+            
         </ul>
-    </div>
+    </div> -->
 </div>
   <h1 id="about-page">About page</h1>
 

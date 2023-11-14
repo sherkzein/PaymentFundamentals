@@ -1,14 +1,101 @@
-<h1>Bananas</h1>
+<!doctype html>
+<html>
 
-<p>
-  20 Aug 2018
-  
-  
-  - <a href="/authors/jill.html">Jill Smith</a>
-  
-</p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p>A banana is an edible fruit – botanically a berry – produced by several kinds
+  <title>Card Payments</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelementplayer.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelement-and-player.min.js"></script>
+</head>
+
+<div>
+  <!--
+<nav>
+  
+  <a href="/" >Home</a>
+  
+  <a href="/about.html" >About</a>
+  
+  <a href="/blog.html" >Blog</a>
+  
+  <a href="/staff.html" >Staff</a>
+  
+</nav>
+--->
+
+<div class="site-menu">
+  <div class="site-menu-content">
+    <div class="site-menu_top">
+      <div class="site-menu_logo-btn">
+        <a href="/" title="Home">
+          <svg width="50" viewBox="0 0 233 185" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="184.755" height="184.755" rx="28" fill="#B8DEB6" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M144.052 52.2461C142.395 52.2461 140.219 53.2991 139.19 54.5981L77.5054 132.509H135.945C139.811 132.509 144.89 130.051 147.29 127.02L170.315 97.9388H195.258C198.571 97.9388 202.925 95.8327 204.982 93.2347L231.227 60.0863C234.655 55.7563 232.957 52.2461 227.434 52.2461H206.492H171.995H144.052Z"
+              fill="#020443" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M83.8184 111.598L68.1895 131.338C68.1627 131.303 68.1366 131.268 68.1112 131.231L32.101 79.899C30.7064 77.911 32.1285 75.1761 34.557 75.1761H56.708C57.6858 75.1761 58.6023 75.6527 59.1639 76.4533L83.8184 111.598ZM104.956 84.9006L89.3251 104.643L71.9671 79.899C70.5725 77.911 71.9946 75.1761 74.4231 75.1761H96.574C97.5519 75.1761 98.4684 75.6527 99.03 76.4533L104.956 84.9006Z"
+              fill="#020443" />
+          </svg>
+        </a>
+      </div>
+      <button class="site-menu_mobile-btn">
+        <a href="javascript:void(0);" onclick="myFunction()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-menu">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </a>
+      </button>
+    </div>
+    <div class="testflex">
+      <nav id="myLinks" class="site-menu_nav">
+        <ul>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Glossary</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+  </div>
+
+</div>
+<script>
+  function myFunction() {
+    console.log("clicked");
+    var x = document.getElementById("myLinks");
+    console.log(x);
+    x.classList.toggle("site-menu_nav-hidden");
+  }
+</script>
+  <div class="bpost">
+    <h1 class="bpost_title">Card Payments</h1>
+    <div class="bpost_author">
+        20 Aug 2018
+        
+        
+        - <a href="/authors/jill.html">Jill Smith</a>
+        
+    </div>
+    <audio controls class="mejsplayer">
+        <source src="/assets/audio/testaudio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <div class="bpost_content">
+        <p>A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.</p>
 
 <p>In some countries, bananas used for cooking may be called “plantains”,
@@ -16,3 +103,18 @@ distinguishing them from dessert bananas. The fruit is variable in size, color,
 and firmness, but is usually elongated and curved, with soft flesh rich in
 starch covered with a rind, which may be green, yellow, red, purple, or brown
 when ripe.</p>
+
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var player = new MediaElementPlayer('.mejsplayer', {
+                features: ['playpause', 'current', 'progress', 'duration', 'volume', 'fullscreen'],
+                startVolume: 0.8,
+                loop: false
+            });
+        });
+    </script>
+</div>
+</div>
+
+</html>

@@ -1,0 +1,26 @@
+<div class="bpost">
+    <h1 class="bpost_title">{{ page.title }}</h1>
+    <div class="bpost_author">
+        {{ page.date | date_to_string }}
+        {% assign author = site.authors | where: 'short_name', page.author | first %}
+        {% if author %}
+        - <a href="{{ author.url }}">{{ author.name }}</a>
+        {% endif %}
+    </div>
+    <audio controls class="mejsplayer">
+        <source src="/assets/audio/testaudio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <div class="bpost_content">
+        {{content}}
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var player = new MediaElementPlayer('.mejsplayer', {
+                features: ['playpause', 'current', 'progress', 'duration', 'volume', 'fullscreen'],
+                startVolume: 0.8,
+                loop: false
+            });
+        });
+    </script>
+</div>
