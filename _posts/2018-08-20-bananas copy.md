@@ -3,9 +3,9 @@ layout: post
 author: jill
 color: red
 featured: true
-cardtitle: WHAT ARE <br /> DIGITAL WALLETS <br /> & HOW THEY WORK
-title: Card Payments
-rating: 9
+cardtitle: HOW ONLINE <br /> CARD PAYMENTS <br /> WORK
+title: Bank Accounts
+rating: 10
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.

@@ -25,9 +25,10 @@ $desktop: 680px;
     justify-content: space-between;
 
     @media (min-width: $desktop) {
-        display: inline;
+        display: flex;
     }
 }
+
 
 .site-menu_mobile-btn {
     background-color: transparent;

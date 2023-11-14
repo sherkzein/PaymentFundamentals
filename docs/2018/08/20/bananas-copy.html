@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Home</title>
+  <title>Bank Accounts</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelementplayer.min.css">
 
@@ -16,11 +16,11 @@
   <script src="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelement-and-player.min.js"></script>
 </head>
 
-<body>
+<div>
   <!--
 <nav>
   
-  <a href="/" class="current" >Home</a>
+  <a href="/" >Home</a>
   
   <a href="/about.html" >About</a>
   
@@ -81,98 +81,40 @@
     x.classList.toggle("site-menu_nav-hidden");
   }
 </script>
-  <div class="fold">
-    <div class="foldheader">
-        <div>
-            <h1 class="fold_title">
-                Learn how online <br /> payments work.
-            </h1>
-            <p class="fold_undertitle">
-                How do card payments work? What about direct debits? What are all the actors involved and what are the
-                stages of
-                a transaction?
-            </p>
-        </div>
-        <div class="foldheader_illustration">
-            <img src="/assets/images/foldimage.svg">
-        </div>
+  <div class="bpost">
+    <h1 class="bpost_title">Bank Accounts</h1>
+    <div class="bpost_author">
+        20 Aug 2018
+        
+        
+        - <a href="/authors/jill.html">Jill Smith</a>
+        
     </div>
-    <div class="featured-articles">
-        
-        
-        <div class="featured-articles_card color1" onclick="location.href='/2018/08/20/bananas-copy.html';"
-            style="cursor:pointer;">
-            <!-- <h1>Card<br />Payments</h1> -->
-            <h1>HOW ONLINE <br /> CARD PAYMENTS <br /> WORK</h1>
-        </div>
-        
-        <div class="featured-articles_card color2" onclick="location.href='/2018/08/20/bananas.html';"
-            style="cursor:pointer;">
-            <!-- <h1>Card<br />Payments</h1> -->
-            <h1>WHAT ARE <br /> DIGITAL WALLETS <br /> & HOW THEY WORK</h1>
-        </div>
-        
-        <div class="featured-articles_card color3" onclick="location.href='/2018/08/21/apples.html';"
-            style="cursor:pointer;">
-            <!-- <h1>Card<br />Payments</h1> -->
-            <h1>CHARGEBACKS</h1>
-        </div>
-        
-        <div class="featured-articles_card color4" onclick="location.href='/2018/08/22/kiwifruit.html';"
-            style="cursor:pointer;">
-            <!-- <h1>Card<br />Payments</h1> -->
-            <h1>HOW INTERNET <br /> BANKING WORKS</h1>
-        </div>
-        
-        <!-- <div class="featured-articles_card red">
-             <h1>Digital<br />Wallets</h1> 
-        </div>
-        <div class="featured-articles_card yellow">
-             <h1>Physical<br />Terminals</h1> 
-        </div>
-        <div class="featured-articles_card grey">
-            <h1>Bank<br />Accounts</h1> 
-        </div> -->
+    <audio controls class="mejsplayer">
+        <source src="/assets/audio/testaudio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <div class="bpost_content">
+        <p>A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.</p>
+
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size, color,
+and firmness, but is usually elongated and curved, with soft flesh rich in
+starch covered with a rind, which may be green, yellow, red, purple, or brown
+when ripe.</p>
+
     </div>
-    <!-- <div class="posts">
-        <ul>
-            
-            
-            <li>
-                
-                <a style="background-color:blue" href="/2018/08/22/kiwifruit.html">ted</a>
-                
-            </li>
-            
-            
-            
-            <li>
-                
-                <a style="background-color:blue" href="/2018/08/21/apples.html">jill</a>
-                
-            </li>
-            
-            
-            
-            <li>
-                
-                <a style="background-color:red" href="/2018/08/20/bananas.html">jill</a>
-                
-            </li>
-            
-            
-            
-            <li>
-                
-                <a style="background-color:red" href="/2018/08/20/bananas-copy.html">jill</a>
-                
-            </li>
-            
-            
-        </ul>
-    </div> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var player = new MediaElementPlayer('.mejsplayer', {
+                features: ['playpause', 'current', 'progress', 'duration', 'volume', 'fullscreen'],
+                startVolume: 0.8,
+                loop: false
+            });
+        });
+    </script>
 </div>
-  
-</body>
+</div>
 
 </html>

@@ -1,0 +1,46 @@
+$desktop: 680px;
+$xldesktop: 1200px;
+$ldesktop: 1000px;
+
+.bpost {
+    background-color: #ffffff;
+    padding: 0 1rem 1rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &_title {
+        color: #32363b;
+        font-size: 1.5rem;
+        padding: 1rem 0 0;
+        margin-bottom: 0;
+
+        @media (min-width: $desktop) {
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+
+    &_content {
+        color: #32363b;
+        font-size: 1.5rem;
+        padding: 1rem 0 2rem
+    }
+
+    &_author {
+        color: #32363b;
+        font-size: 1.5rem;
+        padding: 0 0 2rem;
+
+        @media (min-width: $desktop) {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+
+    &_audio {
+        background-color: transparent !important;
+        border: none;
+        width: 100%;
+    }
+
+}
