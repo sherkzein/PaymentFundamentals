@@ -8,12 +8,14 @@
 
   <title>Card Payments</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelementplayer.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelementplayer.min.css"> -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelement-and-player.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/mediaelement@7.0.1/build/mediaelement-and-player.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+  <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
 </head>
 
 <div>
@@ -90,8 +92,8 @@
         - <a href="/authors/jill.html">Jill Smith</a>
         
     </div>
-    <audio controls class="mejsplayer">
-        <source src="/assets/audio/testaudio.mp3" type="audio/mp3">
+    <audio id="player" controls>
+        <source src="/assets/audio/testaudio.mp3" type="audio/mp3" />
         Your browser does not support the audio tag.
     </audio>
     <div class="bpost_content">
@@ -106,13 +108,7 @@ when ripe.</p>
 
     </div>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var player = new MediaElementPlayer('.mejsplayer', {
-                features: ['playpause', 'current', 'progress', 'duration', 'volume', 'fullscreen'],
-                startVolume: 0.8,
-                loop: false
-            });
-        });
+        const player = new Plyr('#player');
     </script>
 </div>
 </div>
