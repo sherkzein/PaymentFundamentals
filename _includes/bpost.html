@@ -3,9 +3,6 @@
     <div class="bpost_author">
         {{ page.date | date_to_string }}
         {% assign author = site.authors | where: 'short_name', page.author | first %}
-        {% if author %}
-        - <a href="{{ author.url }}">{{ author.name }}</a>
-        {% endif %}
     </div>
     <audio id="player" controls>
         <source src="/assets/audio/testaudio.mp3" type="audio/mp3" />
