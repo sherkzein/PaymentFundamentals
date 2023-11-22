@@ -49,3 +49,7 @@ $ldesktop: 1000px;
     color: #32363b;
     /* Example color change */
 }
+
+.plyr--full-ui input[type="range"] {
+    color: red !important;
+}
