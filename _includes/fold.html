@@ -20,7 +20,7 @@
         <div class="featured-articles_card color{{forloop.index}}" onclick="location.href='{{post.url}}';"
             style="cursor:pointer;">
             <!-- <h1>Card<br />Payments</h1> -->
-            <h1>{{ post.cardtitle }}</h1>
+            <h1 class="{{post.position}}">{{ post.cardtitle }}</h1>
         </div>
         {% endfor %}
         <!-- <div class="featured-articles_card red">

@@ -5,6 +5,7 @@ featured: true
 cardtitle: HOW INTERNET <br /> BANKING WORKS
 title: Physical Terminals
 rating: 7
+position: bottomright
 ---
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
 berry of several species of woody vines in the genus Actinidia.

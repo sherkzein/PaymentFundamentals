@@ -169,19 +169,19 @@ template { display: none; }
 
 .color1 { background-color: #E4E4E4; background-image: url(/assets/images/ripple.svg); }
 
-@media (min-width: 1200px) { .color1 h1 { margin: 0; } }
-
 .color2 { background-color: #E8EEE3; background-image: url(/assets/images/rain.svg); }
-
-@media (min-width: 1200px) { .color2 h1 { margin: 50% 0 0; } }
 
 .color3 { background-color: #D0E6E7; background-image: url(/assets/images/wave.svg); }
 
-@media (min-width: 1200px) { .color3 h1 { margin: 0; width: 100%; text-align: right; } }
-
 .color4 { background-color: #E6DEF0; background-image: url(/assets/images/geometry.svg); }
 
-@media (min-width: 1200px) { .color4 h1 { margin: auto 0 10%; width: 100%; text-align: right; } }
+@media (min-width: 1200px) { .topleft { margin: 0; } }
+
+@media (min-width: 1200px) { .middleleft { margin: 50% 0 0; } }
+
+@media (min-width: 1200px) { .topright { margin: 0; width: 100%; text-align: right; } }
+
+@media (min-width: 1200px) { .bottomright { margin: auto 0 10%; width: 100%; text-align: right; } }
 
 .bpost { background-color: #ffffff; padding: 0 1rem 1rem 1rem; max-width: 1200px; margin: 0 auto; }
 
