@@ -17,7 +17,7 @@
     <div class="featured-articles">
         {% assign posts = site.posts | sort:"rating" | reverse %}
         {% for post in posts limit:4 %}
-        <div class="featured-articles_card color{{forloop.index}}" onclick="location.href='{{post.url}}';"
+        <div class="featured-articles_card {{post.design}}" onclick="location.href='{{post.url}}';"
             style="cursor:pointer;">
             <!-- <h1>Card<br />Payments</h1> -->
             <h1 class="{{post.position}}">{{ post.cardtitle }}</h1>

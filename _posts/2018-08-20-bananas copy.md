@@ -7,6 +7,7 @@ cardtitle: HOW ONLINE <br /> CARD PAYMENTS <br /> WORK
 title: Bank Accounts
 rating: 10
 position: topleft
+design: ripple
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.

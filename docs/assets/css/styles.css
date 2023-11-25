@@ -167,13 +167,13 @@ template { display: none; }
 
 @media (min-width: 1200px) { .featured-articles { grid-template-columns: 1fr 1fr 1fr 1fr; } }
 
-.color1 { background-color: #E4E4E4; background-image: url(/assets/images/ripple.svg); }
+.ripple { background-color: #E4E4E4; background-image: url(/assets/images/ripple.svg); }
 
-.color2 { background-color: #E8EEE3; background-image: url(/assets/images/rain.svg); }
+.rain { background-color: #E8EEE3; background-image: url(/assets/images/rain.svg); }
 
-.color3 { background-color: #D0E6E7; background-image: url(/assets/images/wave.svg); }
+.wave { background-color: #D0E6E7; background-image: url(/assets/images/wave.svg); }
 
-.color4 { background-color: #E6DEF0; background-image: url(/assets/images/geometry.svg); }
+.geometry { background-color: #E6DEF0; background-image: url(/assets/images/geometry.svg); }
 
 @media (min-width: 1200px) { .topleft { margin: 0; } }
 
