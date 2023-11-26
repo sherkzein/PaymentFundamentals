@@ -167,13 +167,21 @@ template { display: none; }
 
 @media (min-width: 1200px) { .featured-articles { grid-template-columns: 1fr 1fr 1fr 1fr; } }
 
-.ripple { background-color: #E4E4E4; background-image: url(/assets/images/ripple.svg); }
+.lightgrey { background-color: #E4E4E4; }
 
-.rain { background-color: #E8EEE3; background-image: url(/assets/images/rain.svg); }
+.lightgreen { background-color: #E8EEE3; }
 
-.wave { background-color: #D0E6E7; background-image: url(/assets/images/wave.svg); }
+.lightblue { background-color: #D0E6E7; }
 
-.geometry { background-color: #E6DEF0; background-image: url(/assets/images/geometry.svg); }
+.lightred { background-color: #E6DEF0; }
+
+.ripple { background-image: url(/assets/images/ripple.svg); }
+
+.rain { background-image: url(/assets/images/rain.svg); }
+
+.wave { background-image: url(/assets/images/wave.svg); }
+
+.geometry { background-image: url(/assets/images/geometry.svg); }
 
 @media (min-width: 1200px) { .topleft { margin: 0; } }
 

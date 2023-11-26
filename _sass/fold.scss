@@ -110,26 +110,36 @@ $ldesktop: 1000px;
 
 }
 
+.lightgrey {
+    background-color: #E4E4E4;
+}
+
+.lightgreen {
+    background-color: #E8EEE3;
+}
+
+.lightblue {
+    background-color: #D0E6E7;
+}
+
+.lightred {
+    background-color: #E6DEF0;
+}
 
 .ripple {
-    background-color: #E4E4E4;
     background-image: url(/assets/images/ripple.svg);
 }
 
 .rain {
-    background-color: #E8EEE3;
     background-image: url(/assets/images/rain.svg);
 }
 
 .wave {
-    background-color: #D0E6E7;
     background-image: url(/assets/images/wave.svg);
 }
 
 .geometry {
-    background-color: #E6DEF0;
     background-image: url(/assets/images/geometry.svg);
-
 }
 
 .topleft {
