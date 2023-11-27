@@ -19,33 +19,9 @@
         {% for post in posts limit:4 %}
         <div class="featured-articles_card {{post.design}} {{post.cardcolor}}" onclick="location.href='{{post.url}}';"
             style="cursor:pointer;">
-            <!-- <h1>Card<br />Payments</h1> -->
             <h1 class="{{post.position}}">{{ post.cardtitle }}</h1>
         </div>
         {% endfor %}
-        <!-- <div class="featured-articles_card red">
-             <h1>Digital<br />Wallets</h1> 
-        </div>
-        <div class="featured-articles_card yellow">
-             <h1>Physical<br />Terminals</h1> 
-        </div>
-        <div class="featured-articles_card grey">
-            <h1>Bank<br />Accounts</h1> 
-        </div> -->
     </div>
-    <!-- <div class="posts">
-        <ul>
-            {% for post in site.posts %}
-            {% if post.featured %}
-            <li>
-                {% if post.color %}
-                <a style="background-color:{{post.color}}" href="{{ post.url }}">{{ post.author }}</a>
-                {% else %}
-                <a style="background-color:blue" href="{{ post.url }}">{{ post.author }}</a>
-                {% endif %}
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div> -->
+
 </div>
