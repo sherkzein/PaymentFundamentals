@@ -14,8 +14,6 @@ $desktop: 680px;
         align-items: center;
         justify-content: space-between;
     }
-
-
 }
 
 .site-menu_top {
@@ -59,7 +57,6 @@ $desktop: 680px;
     @media (min-width: $desktop) {
         display: flex;
     }
-
 }
 
 .site-menu_nav a {
@@ -78,5 +75,4 @@ $desktop: 680px;
     @media (min-width: $desktop) {
         display: flex;
     }
-
 }
