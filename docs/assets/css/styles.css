@@ -205,8 +205,8 @@ template { display: none; }
 
 .bpost_audio { background-color: transparent !important; border: none; width: 100%; }
 
-.plyr--audio .plyr__control { color: #32363b; /* Example color change */ }
+.plyr--audio .plyr__control { color: #32363b; }
 
-.plyr--full-ui input[type="range"] { color: red !important; }
+.plyr--full-ui input[type="range"] { color: #32363b !important; }
 
 /*# sourceMappingURL=styles.css.map */
