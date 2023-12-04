@@ -1,6 +1,5 @@
 ---
 layout: post
-author: jill
 color: red
 featured: true
 cardtitle: HOW ONLINE <br /> CARD PAYMENTS <br /> WORK

@@ -1,6 +1,5 @@
 ---
 layout: post
-author: ted
 featured: true
 cardtitle: HOW INTERNET <br /> BANKING WORKS
 title: Physical Terminals
