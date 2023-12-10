@@ -12,7 +12,6 @@ cardcolor: lightgrey
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
 
-![Image not loaded](/assets/images/paymentimg.png "Optional title")
 
 In some countries, bananas used for cooking may be called "plantains",
 distinguishing them from dessert bananas. The fruit is variable in size, color,
